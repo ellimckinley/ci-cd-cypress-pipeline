@@ -26,8 +26,9 @@ This project demonstrates:
 
 ## 🚀 Deployed Application
 
-🌐 [View Live App on Render](https://ci-cd-cypress-pipeline.onrender.com/)  
-📂 [GitHub Repository](https://github.com/ellimckinley/ci-cd-cypress-pipeline)
+[View Live App on Render](https://ci-cd-cypress-pipeline.onrender.com/)  
+[GitHub Repository](https://github.com/ellimckinley/ci-cd-cypress-pipeline)
+[Screenshot]()
 
 ---
 
