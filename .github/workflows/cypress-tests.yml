@@ -1,11 +1,11 @@
-name: Cypress Component Tests
+name: Cypress Tests
 
 on:
   pull_request:
     branches: [develop]
 
 jobs:
-  cypress-run:
+  run-cypress-tests:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,5 +20,15 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run Cypress component tests
+      - name: Run Component Tests
         run: npx cypress run --component
+
+      - name: Start app for E2E tests
+        run: npm run dev &
+        working-directory: client
+
+      - name: Wait for app to be ready
+        run: npx wait-on http://localhost:3001
+
+      - name: Run E2E Tests
+        run: npx cypress run --e2e
