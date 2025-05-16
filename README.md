@@ -26,8 +26,9 @@ This project demonstrates:
 
 ## 🚀 Deployed Application
 
-🌐 [View Live App on Render](https://ci-cd-cypress-pipeline.onrender.com/)  
-📂 [GitHub Repository](https://github.com/ellimckinley/ci-cd-cypress-pipeline)
+[View Live App on Render](https://ci-cd-cypress-pipeline.onrender.com/)  
+[GitHub Repository](https://github.com/ellimckinley/ci-cd-cypress-pipeline)
+[Screenshot]()
 
 ---
 
@@ -98,22 +99,6 @@ Pull Requests to develop trigger Cypress tests via GitHub Actions
 Merges from develop → main trigger auto-deploy to Render via a Deploy Hook
 
 Environment variables (like MONGODB_URI) are securely managed through Render
-
----
-
-## Technologies Used
-
-- MongoDB
-
-- Express.js
-
-- React
-
-- Node.js
-
-- Cypress
-
-- TypeScript
 
 ---
 
