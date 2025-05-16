@@ -102,22 +102,6 @@ Environment variables (like MONGODB_URI) are securely managed through Render
 
 ---
 
-## Technologies Used
-
-- MongoDB
-
-- Express.js
-
-- React
-
-- Node.js
-
-- Cypress
-
-- TypeScript
-
----
-
 ## 📄 License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
